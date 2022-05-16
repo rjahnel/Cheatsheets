@@ -60,6 +60,7 @@ git branch -a
 
 ## merge branch with master (main)
 git checkout main
+
 git merge "name"
 
 ## delete branch
