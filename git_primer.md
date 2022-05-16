@@ -26,7 +26,7 @@ example: https://github.com/rjahnel/100DaysPythonBootcamp.git
 # Workflow
 ## add and commit files
 
-git add <filename> 
+git add "filename"
 or 
 git add .
 for all files in folder
@@ -47,21 +47,20 @@ git pull origin main
 # working with branches
 
 ## create a branch
-git branch <name>
+git branch "name"
 
 ## change branch
-git checkout <name>
+git checkout "name"
 
 ## push the branch
-git push -u origin <name>
+git push -u origin "name"
 
 ## show branches
 git branch -a
 
 ## merge branch with master (main)
 git checkout main
-git merge <name>
+git merge "name"
 
 ## delete branch
-git branch -d <name>
-
+git branch -d "name"
