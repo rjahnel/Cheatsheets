@@ -43,3 +43,25 @@ git push origin main
 
 ## Save commit from remote repository
 git pull origin main
+
+# working with branches
+
+## create a branch
+git branch <name>
+
+## change branch
+git checkout <name>
+
+## push the branch
+git push -u origin <name>
+
+## show branches
+git branch -a
+
+## merge branch with master (main)
+git checkout main
+git merge <name>
+
+## delete branch
+git branch -d <name>
+
