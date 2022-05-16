@@ -8,6 +8,9 @@ git config --global pager.branch false
 or for all commands: 
 git config --global core.pager cat
 
+# cache access token after using it as password
+git config --global credential.helper cache
+
 # new repository
 git init
 
