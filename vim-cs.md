@@ -1,6 +1,8 @@
-# VIM-CS
+VIM-CS
+======
+___
 
-## Misc
+# Misc
 - Reload .vimrc -> :so %
 - Edit Config -> e $MYVIMRC
 - Completion -> ctrl-n
@@ -8,14 +10,14 @@
 - Delete inside -> di) usw.
 - :set list -> unsichtbare Zeichnen sichtbar (set nolist):
 
-## Buffers
+# Buffers
 - ctrl+^ -> switch buffer
 - :e! -> restore original file
 - :bt! -> remove buffer from the bufferlist
 - alt-n -> next Buffer
 - alt-b -> previous buffer
 
-## Windows
+# Windows
 - ctrl-w s -> split current window horizontally
 - ctrl-w v -> split current window vertically
 - ctrl-w w -> cycle between windows
@@ -35,37 +37,37 @@
 - shell
 - :! -> execute shell-command
 
-## autocomplete
+# autocomplete
 - ctrl-n / ctrl+p
 
-## Files
+# Files
 - :w -> save buffer
 - :e <name> -> open file
 - :e. -> file explorer
 
-## Moving
-- gg -> Dateianfang
-- G -> Dateiende
-- 60gg -> gehe zu Zeile 60
-- ^ -> Erstes Zeichen der Zeile
-- $ -> letztes Zeichen der Zeile
-- ctrl + d -> halbe Seite runter
-- ctrl + u -> halbe Seite hoch
-- ctrl + b -> Seite runter
-- ctrl + f -> Seite hoch
-- 0 -> Zeilenanfang
-- $ -> Zeilenende
-- w -> nächstes Wort
-- b -> vorhergehendes Wort
-- k -> Zeile hoch
-- j -> Zeile runter
-- l -> Buchstabe vor
-- h -> Buchstabe zurück
+# Moving
+- gg -> Begin of file
+- G -> End of file
+- 60gg -> Goto line 60
+- ^ -> First char of the line
+- $ -> Last char of the line
+- ctrl + d -> half page down
+- ctrl + u -> half page up
+- ctrl + b -> page down
+- ctrl + f -> page up
+- 0 -> Begin of the line
+- $ -> End of the line
+- w -> next word
+- b -> previous word
+- k -> Line down
+- j -> Line up
+- l -> char forward
+- h -> char backward
 - H -> Top Screen
 - M -> Middle Screen
 - L -> Botton Screen
 
-## Search
+# Search
 - /pattern - search forward for pattern
 - ?pattern - search backward
 - n - repeat forward search
@@ -73,14 +75,14 @@
 - * - select word under cursor
 - , + <space> - deselect selection
 
-## Help
+# Help
 - Helpwindow expand
 - Help tag -> ,t
 - Help tag back -> ctrl-o
 - NERDTree -> ctrl-n
 - Tagesdatum -> F5
 
-## Vimwiki
+# Vimwiki
 - [[ ]] -> to make the text actual links surround with
 - :VWS /blog/ -> Search for the term “blog”
 - :lopen -> show all of the matches
@@ -106,19 +108,19 @@
 - :help vimwiki-commands -- list all commands
 - :help vimwiki -- General vimwiki help docs
 
-## TODO
+# TODO
 - Toggle complete/uncomplete -> ctrl-SPACE
 - Toggle listitem in TOD-Item -> ctrl-SPACE
 
-## Tipps
-- #n-Zeichen wiederholen
-- <ESC><n>i<zeichen><ESC>
+# Tips
+- #n-chars repeating
+- <ESC><n>i<char><ESC>
 
-### Beispiel
-- <ESC>10i-<ESC> -> schreibt 10 x das -
+## Example
+- <ESC>10i-<ESC> -> writes 10 times -
 
-### Bestimmte Anzahl von Zeichen einfügen No. 2
+## past n times a character No. 2
 
-- x (auschneiden)
-- 80 (Anzahl der Kopien)
-- p (Einfügen)
+- x (cut)
+- 80 (n times)
+- p (paste)
