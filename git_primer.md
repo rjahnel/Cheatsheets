@@ -11,6 +11,8 @@ git config --global core.pager cat
 # cache access token after using it as password
 git config --global credential.helper cache
 
+git config --global core.autocrlf true
+
 # new repository
 git init
 
