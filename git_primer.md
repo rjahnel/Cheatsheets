@@ -73,3 +73,5 @@ git merge "name"
 
 ## delete branch
 git branch -d "name"
+
+
