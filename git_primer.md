@@ -36,6 +36,12 @@ for all files in folder
 ## show repository status
 git status
 
+## show loggin
+git log
+
+## show short version of log
+git log --oneline
+
 ## commit changes
 git commit -m "Commit-message"
 
