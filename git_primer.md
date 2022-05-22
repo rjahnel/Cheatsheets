@@ -36,8 +36,8 @@ for all files in folder
 ## show repository status
 git status
 
-## show loggin
-git log
+## show log
+git log --graph
 
 ## show short version of log
 git log --oneline
@@ -52,7 +52,32 @@ git push origin main
 ## Save commit from remote repository
 git pull origin main
 
+## working with checkout/revert
+
+### checkout - get back in time temporary
+git log
+git checkout <commitnumber>  ----> get back in time
+
+--> look around or check thing in this commit
+
+git checkout master          ----> get back to main commit
+
+
+### Revert commit (switch to commits)
+git revert <commitnumber>    ----> set commit number to the HEAD
+
+----> get back to origin HEAD (revert the revert)
+git checkout master
+git revert <commitnumber of master>
+
+### Reset commit (soft/mixed/hard!)
+git reset --hard <commitnumber>    ---> reset to the commit <commitnumber>
+---> use hard reset to go back mutiple commits (be careful, there's no way back!)
+
 # working with branches
+
+## create and switch to new branch
+git checkout -b dev ---> creates the branch dev and switch to dev
 
 ## create a branch
 git branch "name"
@@ -63,7 +88,7 @@ git checkout "name"
 ## push the branch
 git push -u origin "name"
 
-## show branches
+## show all branches
 git branch -a
 
 ## merge branch with master (main)
